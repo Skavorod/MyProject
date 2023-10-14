@@ -1,0 +1,14 @@
+img{
+    cursor: pointer;
+}
+
+.main_testApi{
+    box-shadow:0 4px 25px #ccc;
+    border-radius:40px;
+    padding:20px;
+    width: 350px;
+}
+.teamElem{
+    display: flex;
+    justify-content: space-between;
+}

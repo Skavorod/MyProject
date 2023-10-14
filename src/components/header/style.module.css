@@ -1,0 +1,38 @@
+.container{
+    background-color: aquamarine;
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar{
+    width: 900px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.textNav{
+    text-decoration: none;
+    color: inherit;
+    transition: 0.2s;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    
+    text-align: center;
+    vertical-align: middle;
+    background-color:rgb(101, 204, 170);
+    
+}
+.textNav:hover {
+    transform: scale(1.15);
+    background-color:rgb(72, 150, 124);
+    
+}
